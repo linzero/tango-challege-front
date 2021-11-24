@@ -2,7 +2,7 @@
 
 ## Requirements
 - Git
-- Node v12>
+- Node v12^
 - Install typescript (requires admin permission)
 ``` npm install -g typescript ```
 
@@ -15,3 +15,5 @@
 ```npm i```
 - Start Proyect
 ```npm start```
+- Run test
+```npm run test```
