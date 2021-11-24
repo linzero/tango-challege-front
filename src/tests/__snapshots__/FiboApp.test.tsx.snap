@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fibonacci Test First Display <FiboApp></FiboApp> 1`] = `
+<div
+  className="main-content d-flex align-items-center justify-content-center"
+>
+  <div
+    className="container text-center"
+  >
+    <h1
+      className="mb-3"
+    >
+      Calculate Fibonacci!
+    </h1>
+    <form
+      className="main-form row m-0 m-auto mb-3"
+    >
+      <div
+        className="col-6"
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          value={0}
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <button
+          className="btn btn-primary w-100"
+          onClick={[Function]}
+        >
+          Calculate
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

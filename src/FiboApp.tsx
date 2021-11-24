@@ -41,9 +41,9 @@ const FiboApp = () => {
                     </form>
 
                     {
-                        (response) && 
+                        (!( isNaN(parseInt(response?.toString() || '')) )) && 
                         <div>
-                            <p><span className="middle"><b>Fibonacci Result:</b></span> <span className="fs-4 middle">{ response }</span></p>
+                            <p><span className="middle"><b>Fibonacci Result:</b></span> <span id="content-response" className="fs-4 middle">{ response }</span></p>
                         </div>
                     }
                 </div>
